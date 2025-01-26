@@ -27,4 +27,6 @@ int main(){
       printf("\n");
   }
 
-  
+  // Exit program
+  return 0;
+}
