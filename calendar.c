@@ -13,5 +13,18 @@ int main(){
 
   printf("\n");
 
-  
+  // Start the calendar on the start date.
+  for(int i = 1; i < start; i++){
+    printf("...");
+  }
+
+  // Prints the days in the calendar.
+  for(int i = 1; i <= days; i++){
+    printf(" %2d", i);
+
+    // New week
+    if((start - 1 + i) % 7) == 0)
+      printf("\n");
+  }
+
   
